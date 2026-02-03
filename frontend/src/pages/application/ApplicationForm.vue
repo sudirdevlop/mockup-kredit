@@ -1,0 +1,12 @@
+<template>
+  <DefaultLayout>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h1 class="text-3xl font-bold mb-8">Formulir Pengajuan</h1>
+      <p class="text-gray-600">Multi-step application form will be implemented here</p>
+    </div>
+  </DefaultLayout>
+</template>
+
+<script setup>
+import DefaultLayout from '@/layouts/DefaultLayout.vue'
+</script>
