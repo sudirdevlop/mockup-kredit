@@ -1,0 +1,59 @@
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.project
+.settings/
+*.launch
+.buildpath
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Documentation Temp Files
+*.md~
+*.bak
+
+# Env Files
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+backend/vendor/
+backend/node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Laravel specific
+backend/.env
+backend/bootstrap/cache/*.php
+backend/storage/
+backend/database/database.sqlite
+
+# Build artifacts
+backend/public/hot
+backend/public/storage
+backend/storage/*.key
+
+# Build Output
+dist/
+build/
+*.min.js
+*.min.css
